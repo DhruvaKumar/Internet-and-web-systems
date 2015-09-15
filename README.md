@@ -1,6 +1,6 @@
 # Map-reduce
 
-Map reduce framework written in Java to run map reduce jobs.(http://www.cis.upenn.edu/~cis455/assignments.html)
+Map reduce framework written in Java to run map reduce jobs.
 
 Description: <br />
 • Created a distributed and multithreaded framework (similar to Apache Hadoop) to run map reduce jobs using java servlets. <br />
