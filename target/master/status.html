@@ -1,0 +1,45 @@
+<html>
+<head><title>Master-Status</title></head>
+<body align="center">
+	<pre> Dhruva Kumar | dhruvak </pre><hr>
+	<h4> Form to submit jobs </h4>
+	<form action="status" method="post">  
+		Job (class name):  <br/>
+		<input type="text" name="job"> <br/>
+		i/p directory (relative to storage dir): <br/>
+		<input type="text" name="inputDir"><br/>
+		o/p directory (relative to storage dir): <br/>
+		<input type="text" name="outputDir"><br/>    
+		Number of threads (MAP): <br/>
+		<input type="text" name="numThreadsMap"><br/> 
+		Number of threads (Reduce): <br/>
+		<input type="text" name="numThreadsReduce"><br/>   
+		<input type="submit" name="submit" value="submit" id="jobFile"> 
+	</form> 
+	<hr>
+</body>
+</html>
+
+<!-- Extra credit -->
+<!-- <html>
+<head><title>Master-Status</title></head>
+<body align="center">
+	<pre> Dhruva Kumar | dhruvak </pre><hr>
+	<h4> Form to submit jobs </h4>
+	<form action="status" method="post" enctype="multipart/form-data">  
+		Job (class name OR upload the .class file):  <br/>
+		<input type="text" name="job"> <br/>
+		<input type="file" name="jobFile" id="jobFile" align="center"><br/> 
+		i/p directory (relative to storage dir): <br/>
+		<input type="text" name="inputDir"><br/>
+		o/p directory (relative to storage dir): <br/>
+		<input type="text" name="outputDir"><br/>    
+		Number of threads (MAP): <br/>
+		<input type="text" name="numThreadsMap"><br/> 
+		Number of threads (Reduce): <br/>
+		<input type="text" name="numThreadsReduce"><br/>   
+		<input type="submit" name="submit" value="submit" id="jobFile"> 
+	</form> 
+	<hr>
+</body>
+</html>  -->
